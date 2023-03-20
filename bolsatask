@@ -1,0 +1,6 @@
+python classifier_script.py -train 
+python classifier_script.py -train -model default 
+python classifier_script.py -classify "imageminput.jpg" 
+python classifier_script.py -train -model default -save "modeloteste.5" 
+python classifier_script.py -train -model default -save "modeloteste.h5" 
+python classifier_script.py -classify "imageminput.jpg" -model "modeloteste.h5" 
